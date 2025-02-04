@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the latest trends, tools, and best practices in JavaScript development.">
+    <meta name="keywords" content="JavaScript, ES6, Web Development, Frontend Development, Programming, Coding">
+    <meta name="author" content="Sree">
+    <title>JavaScript Development Blog | Sreyas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, #2d3a66, #1a1e33);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .blog-container {
+            max-width: 900px;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+        }
+
+        .blog-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #58d;
+            text-align: center;
+            text-shadow: 0 4px 10px rgba(88, 136, 255, 0.5);
+        }
+
+        .blog-meta {
+            font-size: 0.9rem;
+            color: #ccc;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .blog-post {
+            margin-bottom: 40px;
+        }
+        
+        .faq-section {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .faq-title {
+            font-size: 1.8rem;
+            color: #58d;
+            text-shadow: 0 2px 5px rgba(88, 136, 255, 0.5);
+        }
+
+        .faq-item {
+            margin-top: 15px;
+        }
+
+        .faq-question {
+            font-weight: 700;
+            color: #ccf;
+        }
+
+        .faq-answer {
+            font-size: 1rem;
+            color: #e0e0e0;
+            margin-top: 5px;
+        }
+
+
+        .post-title {
+            font-size: 2rem;
+            color: #58d;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 5px rgba(88, 136, 255, 0.5);
+        }
+
+        .post-content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+
+        .back-to-list {
+            display: block;
+            margin-top: 30px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: 700;
+            color: #58d;
+            transition: color 0.3s ease;
+        }
+
+        .back-to-list:hover {
+            color: #ccf;
+        }
+
+        /* Mobile Responsiveness */
+        @media screen and (max-width: 768px) {
+            .blog-container {
+                width: 100%;
+                padding: 20px;
+            }
+            .blog-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="blog-container">
+        <h1 class="blog-title">JavaScript Development Blog</h1>
+        <p class="blog-meta">Explore the latest in JavaScript technologies, best practices, and tips by Sree</p>
+
+        <!-- First Blog Post -->
+        <div class="blog-post">
+            <h2 class="post-title">Mastering ES6: Modern JavaScript Features</h2>
+            <p class="blog-meta">Written by Sree on January 8, 2025</p>
+            <div class="post-content">
+                <p>ES6, also known as ECMAScript 2015, introduced several powerful features that make JavaScript development easier and more efficient. Let’s take a look at some of the most important features:</p>
+                <ul>
+                    <li><strong>Arrow Functions</strong>: A more concise way to write functions with automatic `this` binding.</li>
+                    <li><strong>Template Literals</strong>: String interpolation makes concatenation simpler and cleaner.</li>
+                    <li><strong>Let & Const</strong>: Block-scoped variables with `let` and constant variables with `const` to avoid issues with variable hoisting.</li>
+                    <li><strong>Destructuring</strong>: Extract values from arrays or objects in a cleaner, more readable way.</li>
+                </ul>
+                <p>By mastering these ES6 features, you’ll write cleaner, more maintainable JavaScript code that adheres to modern best practices.</p>
+            </div>
+        </div>
+
+        <!-- Second Blog Post -->
+        <div class="blog-post">
+            <h2 class="post-title">JavaScript Promises: An Introduction to Asynchronous Programming</h2>
+            <p class="blog-meta">Written by Sree on January 8, 2025</p>
+            <div class="post-content">
+                <p>Asynchronous programming is a key part of JavaScript development, especially in web applications that rely on API requests. Promises provide a cleaner way to handle asynchronous code. Here's an introduction to JavaScript Promises:</p>
+                <ol>
+                    <li><strong>Creating Promises</strong>: A Promise represents the eventual completion (or failure) of an asynchronous operation.</li>
+                    <li><strong>Chaining</strong>: You can chain multiple `.then()` calls to handle sequential asynchronous operations.</li>
+                    <li><strong>Error Handling</strong>: Use `.catch()` to handle errors and avoid callback hell.</li>
+                    <li><strong>Async/Await</strong>: Introduced in ES8, async/await makes working with Promises look more synchronous and readable.</li>
+                </ol>
+                <p>Promises allow you to handle asynchronous operations in a more elegant and manageable way, avoiding the nested callback hell.</p>
+            </div>
+        </div>
+
+        <!-- Third Blog Post -->
+        <div class="blog-post">
+            <h2 class="post-title">Introduction to JavaScript Frameworks: React vs Angular</h2>
+            <p class="blog-meta">Written by Sree on January 8, 2025</p>
+            <div class="post-content">
+                <p>JavaScript frameworks have revolutionized frontend development by providing reusable components, state management, and more. Let's compare two of the most popular JavaScript frameworks: React and Angular:</p>
+                <ul>
+                    <li><strong>React</strong>: A library focused on building UI components. It’s flexible, fast, and works well with other libraries.</li>
+                    <li><strong>Angular</strong>: A complete framework that provides an all-in-one solution for building robust web applications, including tools for routing and state management.</li>
+                    <li><strong>Learning Curve</strong>: React is easier for beginners, while Angular offers a more opinionated structure that can be overwhelming for new developers.</li>
+                </ul>
+                <p>Choosing the right framework depends on the scale and complexity of your application. React is great for simpler projects, while Angular excels in larger, more complex apps.</p>
+            </div>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+<div class="faq-section">
+    <div class="faq-item">
+        <p class="faq-question">What is ES6, and why is it important?</p>
+        <p class="faq-answer">ES6 (ECMAScript 2015) introduced modern JavaScript features like arrow functions, template literals, let/const, and destructuring, making code more efficient and readable.</p>
+    </div>
+    <div class="faq-item">
+        <p class="faq-question">How do JavaScript Promises work?</p>
+        <p class="faq-answer">A JavaScript Promise represents the eventual result of an asynchronous operation. It has three states: pending, resolved, or rejected. You can use `.then()` for success and `.catch()` for error handling.</p>
+    </div>
+    <div class="faq-item">
+        <p class="faq-question">What is the difference between React and Angular?</p>
+        <p class="faq-answer">React is a flexible UI library focused on components, while Angular is a full-fledged framework with built-in solutions for routing and state management. React is easier for beginners, whereas Angular has a steeper learning curve.</p>
+    </div>
+    <div class="faq-item">
+        <p class="faq-question">What is Async/Await, and how does it relate to Promises?</p>
+        <p class="faq-answer">Async/Await is a modern way to handle Promises in JavaScript. It allows writing asynchronous code in a more readable, synchronous-like manner without `.then()` chaining.</p>
+    </div>
+    <div class="faq-item">
+        <p class="faq-question">Which JavaScript framework should I learn first?</p>
+        <p class="faq-answer">If you’re new to frontend development, React is a great choice due to its simplicity and widespread use. If you're building large enterprise applications, Angular might be a better fit.</p>
+    </div>
+</div>
+
+
+        <a href="/index.html#blog" class="back-to-list">&larr; Back to Blog List</a>    </div>
+</body>
+</html>
