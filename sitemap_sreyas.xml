@@ -4,19 +4,49 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
   <loc>https://www.sreyas.tech/</loc>
-  <lastmod>2024-12-31T05:37:03+00:00</lastmod>
+  <lastmod>2025-02-04T08:39:21+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.sreyas.tech/downloads/resume_sreyas.pdf</loc>
-  <lastmod>2025-01-01T13:39:46+00:00</lastmod>
+  <lastmod>2025-02-04T08:39:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
-
+<url>
+  <loc>https://www.sreyas.tech/blogs/host.html</loc>
+  <lastmod>2025-02-04T08:39:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sreyas.tech/blogs/design.html</loc>
+  <lastmod>2025-02-04T08:39:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sreyas.tech/blogs/front.html</loc>
+  <lastmod>2025-02-04T08:39:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sreyas.tech/blogs/api.html</loc>
+  <lastmod>2025-02-04T08:39:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sreyas.tech/blogs/seo.html</loc>
+  <lastmod>2025-02-04T08:39:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sreyas.tech/blogs/js.html</loc>
+  <lastmod>2025-02-04T08:39:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sreyas.tech/index.html</loc>
+  <lastmod>2025-02-04T08:39:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 </urlset>
