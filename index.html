@@ -105,6 +105,12 @@
                   <span class="link-text">Portfolio</span>
                 </a>
               </li>
+<li>
+                <a href="#blog" class="nav-anim">
+                  <span class="menu-icon lnr lnr-book"></span>
+                  <span class="link-text">Blog</span>
+                </a>
+              </li>
               <li>
                 <a href="#contact" class="nav-anim">
                   <span class="menu-icon lnr lnr-envelope"></span>
@@ -783,6 +789,139 @@
   </div>
 </section>
 <!-- End of Portfolio Subpage -->
+
+
+
+
+<!-- Blog Subpage -->
+<section data-id="blog" class="animated-section">
+  <div class="page-title">
+    <h2>Blog</h2>
+  </div>
+
+  <div class="section-content">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <!-- Blog Content -->
+        <div class="blog-content">
+          
+          <!-- Blog Grid -->
+          <div class="blog-grid">
+
+            <article class="post">
+              <div class="post-thumbnail">
+                <img src="img/web-hosting.webp" alt="Hosting">
+              </div>
+              <h4 class="post-title"><a href="blogs/host.html">Understanding Web Hosting</a></h4>
+              <p class="post-date">December 23, 2024</p>
+            </article>
+
+            <article class="post">
+              <div class="post-thumbnail">
+                <img src="img/fig.jpg" alt="Web Design" />
+              </div>
+              <h4 class="post-title"><a href="blogs/design.html">Web Design</a></h4>
+              <p class="post-date">December 15, 2024</p>
+            </article>
+
+            <article class="post">
+              <div class="post-thumbnail">
+                <img src="img/front.png" alt="Frontend Development" />
+              </div>
+              <h4 class="post-title"><a href="blogs/front.html">Future of Frontend Dev</a></h4>
+              <p class="post-date">December 11, 2024</p>
+            </article>
+
+            <article class="post">
+              <div class="post-thumbnail">
+                <img src="img/back.jpg" alt="Backend Development" />
+              </div>
+              <h4 class="post-title"><a href="blogs/api.html">Backend/API Dev</a></h4>
+              <p class="post-date">december 19, 2024</p>
+            </article>
+
+            <article class="post">
+              <div class="post-thumbnail">
+                <img src="img/seo.jpg" alt="SEO" />
+              </div>
+              <h4 class="post-title"><a href="blogs/seo.html">SEO Best Practices</a></h4>
+              <p class="post-date">December 20, 2024</p>
+            </article>
+
+            <article class="post">
+              <div class="post-thumbnail">
+                <img src="img/js.jpg" alt="JavaScript Tips" />
+              </div>
+              <h4 class="post-title"><a href="blogs/js.html">JavaScript Tips</a></h4>
+              <p class="post-date">January 8, 2025</p>
+            </article>
+
+          </div>
+          <!-- End of Blog Grid -->
+        </div>
+        <!-- End of Blog Content -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Blog Subpage -->
+
+<style>
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 3 columns */
+    gap: 20px;  /* Space between the grid items */
+  }
+  
+  .blog-grid .post {
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .blog-grid .post:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .blog-grid .post-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;  /* Optional: Rounded corners for images */
+  }
+  
+  .blog-grid .post-title {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .blog-grid .post-date {
+    font-size: 14px;
+    color: #777;
+  }
+
+  /* Mobile Responsiveness */
+  @media screen and (max-width: 768px) {
+    .blog-grid {
+      grid-template-columns: 1fr; /* Switch to 1 column layout for mobile */
+      gap: 10px;  /* Less space between items on smaller screens */
+    }
+
+    .blog-grid .post-thumbnail img {
+      width: 100%; /* Ensure images take full width */
+    }
+
+    .blog-grid .post-title {
+      font-size: 16px; /* Slightly smaller title font for mobile */
+    }
+
+    .blog-grid .post-date {
+      font-size: 12px; /* Smaller date font for mobile */
+    }
+  }
+</style>
+
+
+
 
               <!-- Contact Subpage -->
               <section data-id="contact" class="animated-section">
