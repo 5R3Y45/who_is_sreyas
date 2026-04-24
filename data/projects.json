@@ -1,0 +1,65 @@
+[
+  {
+    "title": "aboglumbo.com",
+    "image": "img/portfolio/aboglumbo.jpg",
+    "link": "http://aboglumbo.com",
+    "groups": ["category_all", "category_hosting"],
+    "categoryText": "Hosting"
+  },
+  {
+    "title": "tenderoutes.com",
+    "image": "img/portfolio/tenderoutes.jpg",
+    "link": "http://tenderoutes.com",
+    "groups": ["category_all", "category_hosting", "category_api"],
+    "categoryText": "Backend & Hosting"
+  },
+  {
+    "title": "cyberseed.co",
+    "image": "img/portfolio/cyberseed.jpg",
+    "link": "http://cyberseed.co",
+    "groups": ["category_all", "category_api", "category_hosting"],
+    "categoryText": "API & Hosting"
+  },
+  {
+    "title": "financeva.com",
+    "image": "img/portfolio/financeva.jpg",
+    "link": "http://financeva.com",
+    "groups": ["category_all", "category_design", "category_seo"],
+    "categoryText": "Design & Content Writing"
+  },
+  {
+    "title": "brandbik.com",
+    "image": "img/portfolio/brandbik.jpg",
+    "link": "http://brandbik.com",
+    "groups": ["category_all", "category_api", "category_design", "category_seo"],
+    "categoryText": "API, Design & SEO"
+  },
+  {
+    "title": "jesralruwais.in",
+    "image": "img/portfolio/jesr.jpg",
+    "link": "https://jesralruwais.in",
+    "groups": ["indie-stat", "category_all", "category_design", "category_seo", "category_hosting"],
+    "categoryText": "Indie Static"
+  },
+  {
+    "title": "galaxypaint.in",
+    "image": "img/portfolio/galaxy.jpg",
+    "link": "https://galaxypaint.in",
+    "groups": ["indie-stat", "category_all", "category_design", "category_seo", "category_hosting", "category_api"],
+    "categoryText": "Indie Static"
+  },
+  {
+    "title": "minnuzfoods.in",
+    "image": "img/portfolio/minnuz.png",
+    "link": "https://minnuzfoods.in",
+    "groups": ["indie-stat", "category_all", "category_design", "category_seo", "category_hosting", "category_api"],
+    "categoryText": "Indie Static"
+  },
+  {
+    "title": "moonwhitedxb.com",
+    "image": "img/portfolio/moonwhite.png",
+    "link": "https://moonwhitedxb.com",
+    "groups": ["indie-stat", "category_all", "category_design", "category_seo", "category_hosting", "category_api"],
+    "categoryText": "Indie Static"
+  }
+]
